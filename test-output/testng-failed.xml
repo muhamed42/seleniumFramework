@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Training(failed)">
+    <classes>
+      <class name="LastDemo.CalculatorTestDD">
+        <methods>
+          <include name="calculate" invocation-numbers="2"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- LastDemo.CalculatorTestDD -->
+    </classes>
+  </test> <!-- Training(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

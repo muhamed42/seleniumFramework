@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestNGHandCrafted">
+    <test name="TestNGUsingPckgs">
+        <parameter name="URL" value="https://juliemr.github.io/protractor-demo/"/>
+        <classes>
+            <class name="Org.example.Selenium01"/>
+        </classes>
+        <!--         <packages> -->
+        <!--             <package name="Day4"></package> -->
+        <!--              -->
+        <!--         </packages> -->
+    </test>
+</suite>

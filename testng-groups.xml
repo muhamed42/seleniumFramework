@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="PckgTest">
+        <groups>
+            <run>
+                <include name="grp1"/>
+                <include name="smoke"/>
+                <exclude name="maintenance"/>
+            </run>
+        </groups>
+        <!--         <packages> -->
+        <!--             <package name="TestNGTopics"> -->
+        <!--                 <include name="TestNGTopics"></include> -->
+        <!--             </package> -->
+        <!--         </packages> -->
+        <classes>
+            <class name="TestNGTopics.TestGroups"/>
+        </classes>
+    </test>
+</suite>

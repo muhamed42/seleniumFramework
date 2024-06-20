@@ -1,0 +1,7 @@
+<suite name="TestSuite">
+    <test name="">
+        <classes>
+            <class name="TestNGTopics.TestNGDemo"/>
+        </classes>
+    </test>
+</suite>

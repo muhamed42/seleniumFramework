@@ -1,0 +1,9 @@
+<suite name="All Test Suite">
+    <test preserve-order="true" name="TestGroups.java">
+        <packages>
+            <package name="TestNGTopics">
+                <include name="TestNGTopics"/>
+            </package>
+        </packages>
+    </test>
+</suite>
